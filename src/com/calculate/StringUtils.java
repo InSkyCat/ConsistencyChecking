@@ -3,11 +3,11 @@ package com.calculate;
 public class StringUtils { 
 	
 	 /**
-     * @作者 尧
-     * @功能 String左对齐
+     * @脳梅脮脽 脪垄
+     * @鹿娄脛脺 String脳贸露脭脝毛
      */
     public static String padLeft(String src, int len, char ch) {
-        int diff = len - src.length(); 
+        int diff = len - src.length();  
         if (diff <= 0) {
             return src;
         }
@@ -20,8 +20,8 @@ public class StringUtils {
         return new String(charr);
     }
     /**
-     * @作者 尧
-     * @功能 String右对齐
+     * @脳梅脮脽 脪垄
+     * @鹿娄脛脺 String脫脪露脭脝毛
      */
     public static String padRight(String src, int len, char ch) {
         int diff = len - src.length();

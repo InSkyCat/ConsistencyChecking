@@ -7,11 +7,11 @@ import java.util.StringTokenizer;
  */
 public class Calculator {
 	// 是否打印 子项计算过程
-	public static boolean subFlag = false;
+	public static boolean subFlag = false; 
 	int numerator; // 分子
-	int denominator; // 分母
+	int denominator; // 分母    
 
-	Calculator() {
+	Calculator() {     
 	}
 
 	Calculator(int a, int b) {
