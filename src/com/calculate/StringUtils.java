@@ -7,7 +7,7 @@ public class StringUtils {
      * @¹¦ÄÜ String×ó¶ÔÆë
      */
     public static String padLeft(String src, int len, char ch) {
-        int diff = len - src.length();
+        int diff = len - src.length(); 
         if (diff <= 0) {
             return src;
         }
